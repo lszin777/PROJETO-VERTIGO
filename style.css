@@ -117,7 +117,17 @@ main{
    font-size: 1rem;
 }
 
+.bg-descktop {
+    display: none;
+}
+
+
+
 @media(nin-widht: 1000px) {
+    body{
+        display: flex;
+    }
+    
     header {
         background: none;
         justify-content: flex-start;
@@ -128,5 +138,8 @@ main{
     }
     main {
         padding-inline:7rem ;
+    }
+    .bg-descktop{
+        display:block;
     }
 }
