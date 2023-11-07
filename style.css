@@ -134,6 +134,7 @@ main{
 @media(nin-widht: 1000px) {
     body{
         display: flex;
+        height: 100vh;
     }
     
     header {
@@ -161,6 +162,12 @@ main{
     .bg-descktop{
         display:block;
         width: 100%;
+    }
+    .bg-descktop img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
     }
     .descrição h1{
         font-size: 2.25rem;
