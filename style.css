@@ -107,13 +107,3 @@ main{
     font-weight: 700;
     color: var(--whitw);
 }
-
-.login > p {
-    color: var(--gray-600);
-
-}
-
-.login > p a {
-   font-weight: 700; 
-   font-size: 1rem;
-}
